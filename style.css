@@ -2,17 +2,23 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 header{
     display: flex;
     justify-content: space-between;
     padding: 1em 2em;
     align-items: center;
+    background-color: rgb(2, 8, 20);
+    color: white;
 }
-
 button{
     padding: 0.8em 1em;
     border: none;
     border-radius: 1em;
     color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    cursor: pointer;
 }
+
